@@ -1,10 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100&family=Roboto&display=swap');
-h1,h2,span{
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+.isTitle{
+    font-family: 'Monoton', cursive;
+    color: rgb(255, 157, 0);
+};
+
+.orange{
+    
+    color: rgb(255, 157, 0);
+}
+
+/*h1,h2,span{
     font-family: 'Gayathri', sans-serif;
 }
 p{
     font-family: 'Roboto', sans-serif;
-}
+}*/
 #cards{
     
 }
@@ -15,11 +28,12 @@ html{
     background-image: url(./img/runnerdesign_2020-/379692.jpg);
 }
 body{
-    background: linear-gradient(to left,rgba(3, 7, 30, 0.574),rgba(0, 162, 255, 0.274),rgba(115, 133, 238, 0.26));
+    background: linear-gradient(to left,rgba(3, 7, 30, 0.574),rgba(138, 138, 138, 0.274),rgba(46, 46, 46, 0.26));
     border-style: solid;
-    border-color: rgba(0, 120, 189, 0.37);
-    border-width: 3px;
-    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.877);
+    box-shadow: 10px 10px 8px 10px #ffffff32;
+    border-width: 8px;
+    
     z-index: -1;
 }
 .card{
@@ -27,33 +41,35 @@ body{
     height: 400px;
     background: black;
     border-style: solid;
-    border-color: rgb(0, 120, 189);
+    border-color: rgb(219, 96, 14);
     border-width: 1px;
     paddig: 5px;
     margin: 15px;
 }
 
 .menu{
-    color: rgb(0, 120, 189);
+    color: rgb(255, 255, 255);
     background: rgba(0, 0, 0, 0.541);
     margin: 5px;
     border-radius: 15px;
     padding-left: 8px;
     padding-right: 8px;
     height: 30px;
-    border-color: rgb(0, 120, 189);
+    border-color: rgb(255, 255, 255);
     border-style: solid;
     border-width: 1px;
     padding-top: 2px;
     padding-bottom: 3px;
 }
-
+.spaceMenu{
+    width: 56px;
+}
 .minimenu
 {
-    background-color: rgba(0, 120, 189, 0.47);
+    background-color: rgba(0, 0, 0, 0.876);
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
-    height: 200px;
+    height: 300px;
 }
 #btn-menu, #btn-portafolio, #btn-fb, #btn-li, #btn-ig, #btn-contact, #btn-gh{
     
@@ -62,7 +78,7 @@ body{
 
 #btn-menu:hover, #btn-portafolio:hover, #btn-fb:hover, #btn-li:hover, #btn-ig:hover, #btn-contact:hover, #btn-gh:hover{
     
-   background-color: rgba(0, 0, 0, 0.39);
+   background-color: rgba(226, 111, 3, 0.883);
    border-radius: 50%;
 }
 #btn-menu:hover .smooth{
@@ -93,7 +109,7 @@ header{
 #filter{
     height: 70vh;
     width: 100%;
-    background:rgba(110, 173, 255, 0.459);
+    background:rgba(204, 204, 204, 0.459);
     
 
 }
@@ -222,7 +238,7 @@ header{
     visibility: hidden;
     position: absolute;
     color: white;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: rgba(248, 88, 13, 0.801);
     border-radius: 5%;
     text-align: center;
     margin-left: 5px;
